@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/FM_Minimalist-portfolio-website/static/css/main.cc386f73.css",
+    "main.js": "/FM_Minimalist-portfolio-website/static/js/main.97fd387e.js",
+    "static/media/image-insure-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-insure-hero.03d1355c5fbaa20541dc.jpg",
+    "static/media/image-homepage-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-homepage-hero.18443de6381e746fb91a.jpg",
+    "static/media/image-fylo-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-fylo-hero.0213b2aa4a700d3ca866.jpg",
+    "static/media/image-manage-preview-2.jpg": "/FM_Minimalist-portfolio-website/static/media/image-manage-preview-2.8069a3641ea35451e016.jpg",
+    "static/media/image-manage-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-manage-hero.a7441bda4b1670891853.jpg",
+    "static/media/image-insure-preview-2.jpg": "/FM_Minimalist-portfolio-website/static/media/image-insure-preview-2.e1f21dc602599b472f61.jpg",
+    "static/media/image-fylo-preview-2.jpg": "/FM_Minimalist-portfolio-website/static/media/image-fylo-preview-2.0d378f23e53b0425b141.jpg",
+    "static/media/image-homepage-profile.jpg": "/FM_Minimalist-portfolio-website/static/media/image-homepage-profile.27a4a72c8f4b22430e0c.jpg",
+    "static/media/image-bookmark-preview-2.jpg": "/FM_Minimalist-portfolio-website/static/media/image-bookmark-preview-2.9e8c76b61fb3a59e4e44.jpg",
+    "static/media/image-bookmark-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-bookmark-hero.818b7024e5a2220127d3.jpg",
+    "static/media/image-insure-preview-1.jpg": "/FM_Minimalist-portfolio-website/static/media/image-insure-preview-1.82e16e8a59541d49e215.jpg",
+    "static/media/image-portfolio-insure.jpg": "/FM_Minimalist-portfolio-website/static/media/image-portfolio-insure.e9909ef98ac0e78adb31.jpg",
+    "static/media/image-manage-preview-1.jpg": "/FM_Minimalist-portfolio-website/static/media/image-manage-preview-1.6d3d594c8b284cfc00b9.jpg",
+    "static/media/image-portfolio-bookmark.jpg": "/FM_Minimalist-portfolio-website/static/media/image-portfolio-bookmark.3c94b55767b2c7cfba8d.jpg",
+    "static/media/image-portfolio-manage.jpg": "/FM_Minimalist-portfolio-website/static/media/image-portfolio-manage.62fc27eb486f5f979709.jpg",
+    "static/media/image-bookmark-preview-1.jpg": "/FM_Minimalist-portfolio-website/static/media/image-bookmark-preview-1.ce8b64c45469fb810773.jpg",
+    "static/media/image-portfolio-fylo.jpg": "/FM_Minimalist-portfolio-website/static/media/image-portfolio-fylo.0188e120088570c6c435.jpg",
+    "static/media/image-fylo-preview-1.jpg": "/FM_Minimalist-portfolio-website/static/media/image-fylo-preview-1.1e386b1eb600b757bc0b.jpg",
+    "index.html": "/FM_Minimalist-portfolio-website/index.html",
+    "static/media/github-dark.svg": "/FM_Minimalist-portfolio-website/static/media/github-dark.f58014fc875dca81c301a277db929c59.svg",
+    "static/media/github.svg": "/FM_Minimalist-portfolio-website/static/media/github.0bd72e195d8e0259359c077f8649b32f.svg",
+    "static/media/twitter-dark.svg": "/FM_Minimalist-portfolio-website/static/media/twitter-dark.61ef299df94f48d6771dee0d6fd5d0b0.svg",
+    "static/media/twitter.svg": "/FM_Minimalist-portfolio-website/static/media/twitter.5a078dc093c3500a4b9c0379855eb403.svg",
+    "static/media/linkedin-dark.svg": "/FM_Minimalist-portfolio-website/static/media/linkedin-dark.cf1b334c5e05f769232eae4d3e03b5cf.svg",
+    "static/media/linkedin.svg": "/FM_Minimalist-portfolio-website/static/media/linkedin.b50528233c10852ce134c0d9adc13288.svg",
+    "static/media/logo-dark.svg": "/FM_Minimalist-portfolio-website/static/media/logo-dark.6b2775f27638e19c166d604dbba6f59d.svg",
+    "static/media/logo-light.svg": "/FM_Minimalist-portfolio-website/static/media/logo-light.642b2c54f4f368c83339be10ccfcc1a9.svg",
+    "static/media/arrow-left.svg": "/FM_Minimalist-portfolio-website/static/media/arrow-left.a89e4de1cc043b26dac31bbd843bb626.svg",
+    "static/media/arrow-right.svg": "/FM_Minimalist-portfolio-website/static/media/arrow-right.aec1b6f966bfbb1a22ccd01ed94a4c4c.svg",
+    "main.cc386f73.css.map": "/FM_Minimalist-portfolio-website/static/css/main.cc386f73.css.map",
+    "main.97fd387e.js.map": "/FM_Minimalist-portfolio-website/static/js/main.97fd387e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc386f73.css",
+    "static/js/main.97fd387e.js"
+  ]
+}

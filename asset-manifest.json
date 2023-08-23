@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FM_Minimalist-portfolio-website/static/css/main.cc386f73.css",
-    "main.js": "/FM_Minimalist-portfolio-website/static/js/main.97fd387e.js",
+    "main.js": "/FM_Minimalist-portfolio-website/static/js/main.dcb4d4d4.js",
     "static/media/image-insure-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-insure-hero.03d1355c5fbaa20541dc.jpg",
     "static/media/image-homepage-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-homepage-hero.18443de6381e746fb91a.jpg",
     "static/media/image-fylo-hero.jpg": "/FM_Minimalist-portfolio-website/static/media/image-fylo-hero.0213b2aa4a700d3ca866.jpg",
@@ -32,10 +32,10 @@
     "static/media/arrow-left.svg": "/FM_Minimalist-portfolio-website/static/media/arrow-left.a89e4de1cc043b26dac31bbd843bb626.svg",
     "static/media/arrow-right.svg": "/FM_Minimalist-portfolio-website/static/media/arrow-right.aec1b6f966bfbb1a22ccd01ed94a4c4c.svg",
     "main.cc386f73.css.map": "/FM_Minimalist-portfolio-website/static/css/main.cc386f73.css.map",
-    "main.97fd387e.js.map": "/FM_Minimalist-portfolio-website/static/js/main.97fd387e.js.map"
+    "main.dcb4d4d4.js.map": "/FM_Minimalist-portfolio-website/static/js/main.dcb4d4d4.js.map"
   },
   "entrypoints": [
     "static/css/main.cc386f73.css",
-    "static/js/main.97fd387e.js"
+    "static/js/main.dcb4d4d4.js"
   ]
 }

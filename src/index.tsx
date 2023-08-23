@@ -16,3 +16,5 @@ root.render(
         </BrowserRouter>
     </React.StrictMode>
 );
+
+// to make links work in prod add basename={`/${process.env.PUBLIC_URL}`} and make the home path be "" instead of "/"

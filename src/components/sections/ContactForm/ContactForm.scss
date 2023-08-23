@@ -1,0 +1,109 @@
+@import '../../../styles/variables';
+
+.contact {
+  margin: 2rem 0 5rem 0;
+  display: grid;
+  gap: 1.5rem;
+
+  @media (min-width: $desktop) {
+    margin: 3rem 0 6.875rem 0;
+  }
+
+  &__form {
+    display: grid;
+    gap: 1.5rem;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      font-size: 0.813rem;
+      font-weight: $fw-bold;
+      line-height: 2.3;
+      position: relative;
+
+      textarea {
+        resize: vertical;
+        height: 48px;
+
+        @media (min-width: $tablet) {
+          height: 96px;
+        }
+      }
+
+      &-failed {
+        .contact__form-itemInput {
+          outline: 1px solid $clr-red;
+        }
+
+        .contact__form-itemError {
+          display: block;
+        }
+      }
+
+      &Error {
+        position: absolute;
+        display: none;
+        top: calc(100% + 4px);
+        left: 0;
+        font-size: 0.625rem;
+        line-height: 1.2;
+        color: $clr-red;
+        font-weight: $fw-bold;
+      }
+
+      &Input {
+        font-weight: $fw-regular;
+        padding: 0.7em 1.2em;
+        background-color: $clr-600-transparent;
+        color: $clr-600;
+
+        &:focus {
+          outline: 1px solid $clr-cyan;
+        }
+
+        &::placeholder {
+          opacity: 0.4;
+        }
+      }
+    }
+  }
+
+  &__btn {
+    background-color: $clr-500;
+    color: $clr-100;
+    padding: 1.4em 0;
+    width: 200px;
+    transition: background-color 0.5s;
+    overflow: hidden;
+
+    div {
+      display: flex;
+      transform: translateX(-200%);
+
+      p {
+        width: 200px;
+        flex-shrink: 0;
+      }
+    }
+
+    &-sending {
+      background-color: $clr-cyan;
+      pointer-events: none;
+
+      div {
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+      }
+    }
+
+    &-sent {
+      pointer-events: none;
+
+      div {
+        transform: translateX(0);
+        transition: transform 0.5s;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../../styles/variables';
+
+.together {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+
+  @media (min-width: $tablet) {
+    padding: 5rem 0 6rem 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    position: relative;
+
+    &::after {
+      content: '';
+      height: 1px;
+      background-color: $clr-600;
+      opacity: 0.15;
+      flex: 1;
+      order: 2;
+    }
+  }
+
+  @media (min-width: $desktop) {
+    padding: 9.375rem 0;
+  }
+
+  &__title {
+    margin-bottom: 2.5rem;
+
+    @media (min-width: $tablet) {
+      width: 350px;
+      margin: 0;
+      order: 1;
+    }
+  }
+
+  &__btn {
+    align-self: center;
+    flex-shrink: 0;
+    order: 3;
+  }
+}

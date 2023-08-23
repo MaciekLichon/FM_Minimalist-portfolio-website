@@ -1,0 +1,45 @@
+@import '../../../styles/variables';
+
+.about {
+  margin-top: 6rem;
+
+  @media (min-width: $desktop) {
+    margin-top: 9.375rem;
+  }
+
+  .preview {
+
+    @media (min-width: $tablet) {
+      align-items: normal;
+    }
+
+    &__image {
+      @media (max-width: 767px) {
+        height: 346px;
+
+        img {
+          object-position: center;
+        }
+      }
+
+      @media (min-width: $desktop) {
+        flex-shrink: 1;
+      }
+    }
+
+    &__content {
+      padding: 2rem 0 3.25rem 0;
+
+      @media (min-width: $tablet) {
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 0;
+      }
+    }
+
+    &__text {
+      font-size: $fs-body-l;
+      line-height: 1.88;
+    }
+  }
+}

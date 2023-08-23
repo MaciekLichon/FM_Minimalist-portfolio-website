@@ -1,0 +1,16 @@
+@import '../../../styles/variables';
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+
+  @media (min-width: $tablet) {
+    gap: 5rem;
+    margin-top: 2.875rem;
+  }
+
+  @media (min-width: $desktop) {
+    margin-top: 2.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../../styles/variables';
+
+.project-background {
+  margin-top: 3rem;
+
+  @media (min-width: $tablet) {
+    margin-top: 2.5rem;
+  }
+
+  @media (min-width: $desktop) {
+    margin-top: 0;
+  }
+
+  &__title {
+    margin-bottom: 1.75rem;
+  }
+}

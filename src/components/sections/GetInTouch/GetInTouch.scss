@@ -1,0 +1,23 @@
+@import '../../../styles/variables';
+
+.touch {
+  padding: 1.5rem 0;
+  display: grid;
+  gap: 1.5rem;
+
+  @media (min-width: $tablet) {
+    padding: 2rem 0;
+  }
+
+  @media (min-width: $desktop) {
+    padding: 3rem 0;
+  }
+
+  &__text {
+    margin-bottom: 1.5rem;
+
+    @media (min-width: $desktop) {
+      font-size: $fs-body-l;
+    }
+  }
+}

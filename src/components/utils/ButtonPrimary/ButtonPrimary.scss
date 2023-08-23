@@ -1,0 +1,51 @@
+@import '../../../styles/variables';
+
+.btn-primary {
+  width: 200px;
+  display: flex;
+  background-color: $clr-500;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $clr-cyan;
+  }
+
+  &:hover &__indicator {
+    path {
+      stroke: $clr-100;
+      animation-duration: 1s;
+    }
+
+    @for $i from 1 through 3 {
+      path:nth-child(#{$i}) {
+        animation-delay: calc($i * 0.2s);
+      }
+    }
+  }
+
+  &__text {
+    padding: 1.4em 0;
+    color: $clr-100;
+    flex: 1;
+    text-align: center;
+  }
+
+  &__indicator {
+    path {
+      opacity: 0.25;
+      animation: blink 2.5s linear infinite;
+    }
+
+    @for $i from 1 through 3 {
+      path:nth-child(#{$i}) {
+        animation-delay: calc($i * 0.6s);
+      }
+    }
+  }
+}
+
+@keyframes blink {
+  0% { opacity: 0.25; }
+  30% { opacity: 1; }
+  60% { opacity: 0.25; }
+}

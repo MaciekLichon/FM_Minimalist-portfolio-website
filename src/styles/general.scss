@@ -1,0 +1,95 @@
+@import './variables';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $ff-regular;
+  color: $clr-600-text;
+  font-weight: $fw-regular;
+  font-size: $fs-body;
+  background-color: $clr-200;
+}
+
+h1, h2, h3 {
+  color: $clr-600;
+  font-family: $ff-headers;
+}
+
+h1 {
+  letter-spacing: -0.357px;
+  line-height: 1.05;
+  font-size: $fs-header-m;
+  font-weight: $fw-bold;
+
+  @media (min-width: $desktop) {
+    font-size: $fs-header-l;
+    line-height: 1;
+    letter-spacing: -0.446px;
+  }
+}
+
+h2 {
+  letter-spacing: -0.357px;
+  line-height: 1.05;
+  font-size: $fs-header-m;
+  font-weight: $fw-bold;
+}
+
+h3 {
+  letter-spacing: -0.286px;
+  line-height: 1.31;
+  font-size: $fs-header-s;
+  font-weight: $fw-regular;
+}
+
+input, textarea {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navlink {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: $fs-navlink;
+  line-height: 1.17;
+  cursor: pointer;
+}
+
+.borders {
+  position: relative;
+
+  &::after, &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    opacity: 0.15;
+    background-color: $clr-600;
+  }
+
+  &::after { top: 0; }
+  &::before { bottom: 0; }
+}
+
+.contact-grid {
+  @media (min-width: $desktop) {
+    display: grid;
+    grid-template-columns: 1fr 635px;
+  }
+}

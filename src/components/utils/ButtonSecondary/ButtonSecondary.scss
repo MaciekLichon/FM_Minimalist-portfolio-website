@@ -1,0 +1,13 @@
+@import '../../../styles/variables';
+
+.btn-secondary {
+  border: 1px solid $clr-600;
+  color: $clr-600;
+  padding: 1.4em 2.7em;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: $clr-600;
+    color: $clr-200;
+  }
+}

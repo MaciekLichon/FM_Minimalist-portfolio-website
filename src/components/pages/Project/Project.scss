@@ -1,0 +1,30 @@
+@import '../../../styles/variables';
+
+.project {
+  position: relative;
+
+  &-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $clr-200;
+    transform-origin: bottom;
+  }
+
+  @media (min-width: $desktop) {
+
+    &-content {
+      display: grid;
+      column-gap: 8rem;
+      grid-template-columns: 350px 1fr;
+      margin-top: 7rem;
+    }
+
+    &-details {
+      grid-row: span 2;
+      align-content: start;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@import '../../../styles/variables';
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+
+  &__image {
+    height: 271px;
+    width: 100%;
+
+    @media (min-width: $tablet) {
+      height: 600px;
+    }
+
+    @media (min-width: $desktop) {
+      height: auto;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+
+    @media (min-width: $tablet) {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 3.5rem 3.5rem 0 0;
+      max-width: 514px;
+      background-color: $clr-200;
+    }
+
+    @media (min-width: $desktop) {
+      max-width: 445px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+
+    @media (min-width: $tablet) {
+      margin-bottom: 3rem;
+    }
+
+    @media (min-width: $desktop) {
+      margin-bottom: 3.5rem;
+    }
+  }
+}

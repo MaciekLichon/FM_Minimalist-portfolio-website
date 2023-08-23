@@ -1,0 +1,40 @@
+@import '../../../styles/variables';
+
+.footer {
+  padding: 3.5rem 0;
+  background-color: $clr-600;
+
+  @media (min-width: $tablet) {
+    padding: 1.5rem 2.5rem;
+  }
+
+  &__content {
+    max-width: $container-width;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+
+    @media (min-width: $tablet) {
+      flex-direction: row;
+      gap: 3rem;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    @media (min-width: $tablet) {
+      flex: 1;
+      flex-direction: row;
+    }
+
+    &-item {
+      color: $clr-100;
+    }
+  }
+}

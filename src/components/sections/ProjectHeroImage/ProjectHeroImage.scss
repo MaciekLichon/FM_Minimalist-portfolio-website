@@ -1,0 +1,16 @@
+@import '../../../styles/variables';
+
+.project-hero {
+
+  @media (min-width: $tablet) {
+    margin-top: 2.875rem;
+  }
+
+  @media (min-width: $desktop) {
+    margin-top: 2.5rem;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}

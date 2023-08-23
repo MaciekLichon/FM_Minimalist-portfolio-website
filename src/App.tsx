@@ -22,7 +22,7 @@ const App: React.FC = () => {
                 <AnimatePresence mode="wait">
                     <Routes location={location} key={location.pathname}>
                         <Route element={<Together />} >
-                            <Route path="/" element={<Home />} />
+                            <Route path="" element={<Home />} />
                             <Route path="/portfolio" >
                                 <Route index element={<Portfolio />} />
                                 <Route path=":title" element={<Project />} />
